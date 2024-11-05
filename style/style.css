@@ -1,0 +1,77 @@
+@import 'reset.css';
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Sixtyfour+Convergence&display=swap');
+
+:root{
+    --title-font: "Fraunces", serif;
+    --text-font: "Manrope", sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 56px;
+    margin-top: 56px;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-color: #44FFA1;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+    font-family: var(--text-font);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 100%;
+    background-color: #24053E;
+}
+
+h1{
+    font-family: var(--title-font);
+    font-size: 80px;
+    width: 635px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 span{
+    text-decoration: underline;
+    text-decoration-color: #44FFA1;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+}
+
+.main-btn{
+    background-color: #44FFA1;
+    width: 162px;
+    text-align: center;
+    padding: 28px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #24053E;
+    font-family: var(--text-font);
+    margin-bottom: 88px;
+}
